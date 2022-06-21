@@ -10,7 +10,7 @@ namespace dinoJumper
     {
 
         public int size = 12;
-        public int xSpeed = 7;
+        public int xSpeed = 8;
         public int x, y;
 
         public Bird(int _x, int _y)

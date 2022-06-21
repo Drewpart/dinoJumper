@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace dinoJumper
 {
-    internal class tallSpike
+    internal class Border
     {
-        public int height = 12;
-        public int width = 30;
+
+        public int size = 12;
         public int xSpeed = 8;
         public int x, y;
 
-        public tallSpike(int _x, int _y)
+        public Border(int _x, int _y)
         {
             x = _x;
             y = _y;

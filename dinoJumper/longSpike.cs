@@ -8,8 +8,9 @@ namespace dinoJumper
 {
     internal class longSpike
     {
-        public int size = 15;
-        public int xSpeed = 12;
+        public int height = 20;
+        public int width = 12;
+        public int xSpeed = 8;
         public int x, y;
 
         public longSpike(int _x, int _y)
